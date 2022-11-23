@@ -1,0 +1,47 @@
+.choose-level-container {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+.title-label {
+  color: white;
+}
+
+.level-buttons {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.level-buttons button {
+  font-size: 2rem;
+}
+
+.game-container {
+  display: grid;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.row {
+  display: grid;  
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1rem;
+}
+
+.cell {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid white;
+  color: whitesmoke;
+}
+
+.covered {
+  background: whitesmoke;
+}
